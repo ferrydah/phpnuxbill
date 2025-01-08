@@ -5,9 +5,9 @@ services:
     build: ./
     restart: unless-stopped
     ports:
-      - "80:80"
+      - "9980:80"
     environment:
-      TZ: Africa/Nairobi
+      TZ: Asia/Jakarta
     depends_on:
       - mysql
 
